@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.F eventos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            position: relative;
+            text-align: right;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .title {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+        .section img {
+            max-width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            background-color: black;
+        }
+        footer img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        /* Media Query para dispositivos móviles */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Estilos para el contenedor del logo */
+        .logo-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./img/fotoprincipal.jpg" alt="Fondo">
+        
+        <!-- Agrega el contenedor del logo -->
+        <div class="logo-container">
+            <img src="./img/LOGO.png" alt="Logo">
+        </div>
+    </header>
+    <h1 class="title">Organizacion integral para fiestas y eventos</h1>
+    
+    <div class="section">
+        <img src="cumpleanos.jpg" alt="Casamientos">
+        <p>Casamientos</p>
+    </div>
+    
+    <div class="section">
+        <img src="" alt="Cumpleaños">
+        <p>Cumpleaños</p>
+    </div>
+    
+    <div class="section">
+        <img src="./img/CUMPLE15.jpg" alt="Cumpleaños15">
+        <img src="./img/CUMPLE152.jpg" alt="Cumpleaños15">
+        <p>Cumpleaños de 15</p>
+    </div>
+    
+    <div class="section">
+        <img src="cumpleanos.jpg" alt="CumpleañosI">
+        <p>Cumpleaños infantiles</p>
+    </div>
+    
+    <div class="section">
+        <img src="./img/RE.jpg" alt="EventosE">
+        <p>Eventos empresariales</p>
+    </div>
+    
+    <div class="section">
+        <img src="./img/RE2.jpg" alt="ReunionesE">
+        <p>Reuniones empresariales</p>
+    </div>
+    
+    <div class="section">
+        <img src="cumpleanos.jpg" alt="Decoracion">
+        <p>Decoracion</p>
+    <a href="">     </a>
+    </div>
+    
+    <div class="section">
+        <img src="cumpleanos.jpg" alt="Discoteca">
+        <p>Discoteca</p>
+    </div>
+    
+    <div class="section">
+        <img src="cumpleanos.jpg" alt="PistaLED">
+        <p>Pista led</p>
+    </div>
+    
+    <div class="section">
+        <img src="./img/barraled.jpg" alt="BarraLED">
+        <p>Barra led</p>
+    </div>
+    <!-- Resto de tu contenido... -->
+
+    <footer>
+        <img src="./img/QR.png" alt="Código QR para TikTok">
+    </footer>
+</body>
+</html>
